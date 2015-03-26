@@ -1,75 +1,132 @@
 .container {
-	width:720px;
-	margin: 0 auto;
+    background-color: black;
+    margin: 0 auto;
+    padding: 20px;
+    color: maroon ;
+    font-family: 'Amatic SC';
+    text-align: center;
+    width: 1250px;
+    height: 850px;
 }
 
-header {
-	 width:1000px;
+body {
+    background-image: url('img/EUGvw9_R.jpg');
 }
 
-nav {
-	background-color:#3E7CA5;
-	padding: 20px;
-	margin-bottom: 5px;
+#blog h1 {
+	font-family: 'Amatic SC';
+}
+
+h1 {
+    font-family: 'Amatic SC';
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Courgette';
+    font-size: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+#header a {
+    display: inline-block;
+    color: maroon ;
+    border: 5px solid #800000 ;
+    font-size: 60px;
+    margin: 0 auto;
+    width: 1220px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    border-radius: 30px;
+    font-family: 'Amatic SC';
+}
+
+section p a {
+    color: #800000 }
+
+section p a:hover {
+    color: #800000 ;
+    font-weight: bold;
+}
+
+section img {
+    border-radius: 50px;
+    padding: 20px;
+    width: 300px;
+}
+
+.social a {
+    float: center;
+    font-family: 'Amatic SC';
+    color: #800000 ;
+    padding: 8px;
+    font-size: 30px;
 }
 
 nav ul {
-	text-align: center;
-	padding: 0;
+    padding: left;
+    color: #800000 ;
+    font-size: 20px
 }
 
 nav ul li {
-	list-style-type: none;
-	display: inline;
-	margin-left: 0 15px;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px
 }
 
-a:link {
-	text-decoration: none;
-	color: #fff;
+nav ul li a {
+    font-family: 'Courgette';
+    text-decoration: none;
+    font-size: 20px;
+    color: #800000 ;
 }
 
-a:visited {
-	color: #000;
+nav ul li a:hover {
+    color: #800000 ;
 }
 
-a:hover {
-	color: #999;
+section a {
+    color: #800000 ;
 }
 
-a:active {
-	color: #CC3300;
+section a:hover {
+    color: #800000 ;
+    font-weight: bold;
 }
 
-.top {
-	border: 2px solid #000000;
-	width: 450px;
-	height: 450px;
-	float: left;
-	padding: 5px;
-	margin-bottom: 10px;
+#hero img {
+    width: 1250px;
+    border-radius: 50px;
 }
 
-.bottom {
-	border: 2px solid #000000;
-	width: 450px;
-	height: 450px;
-	float: left;
-	padding: 5px;
+span {
+    color: #800000 ;
 }
 
-aside {
-	width: 200px;
-	height: 700px;
-	background-color: #3e7ca5;
-	float: right;
-	padding: 5px;
+article p {
+    text-align: center;
 }
 
-footer {
-	clear: both;
-	padding: 5px;
+article a {
+    color: #800000 ;
 }
-p {
-	text-align: justify;
+
+article a:hover {
+    color: #800000;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+}
+
+#blog article ul {
+	font-family: 'Courgette';
 }
